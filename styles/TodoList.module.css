@@ -1,0 +1,30 @@
+.list{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	width: 50rem;
+	margin: 0rem auto;
+	border: 0.1rem solid rgba(0,0,0,0.233);
+	justify-content: space-between;
+}
+
+.listHeader{
+	display: flex;
+	align-items: center;
+}
+
+.listHeader h2{
+	color: rgb(37,36,36);
+}
+
+.listImage{
+	width: 4rem;
+	height: 4rem;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.listNote{
+	align-items: left;
+	width: 30%;
+}
